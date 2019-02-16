@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<task name="SampleTaskName">
+<script name="SAMPLE.py" />
+<input_list>
+<input type="int" value="15" />
+<input type="int" value="25" />
+<input type="int" value="35" />
+</input_list>
+</task>

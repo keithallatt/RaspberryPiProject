@@ -1,0 +1,21 @@
+Task formatting is extremely important, as without proper formatting, the software cannot guess what is meant in each file. The file format is not complicated though, and merely uses a common markup language to structure. The markup language XML allows for the structure required for tasks. Each task follows this same structure.
+
+For the sake of the python script being used, any spaces will be removed automatically, but for ease of use, not using any just makes finding the task later easier.
+
+Sample.xml:
+-------------------
+
+<?xml version="1.0"?>
+<task name="SampleTaskName">
+	<script name="SampleTaskScript.py" />
+	<input_list>
+		<input type="int/float/etc" value="value of input" />
+		...
+	</input_list>
+</task>
+
+-------------------
+
+The parser for these xml files is procedural, meaning inputs are logged in order. This means programming the scripts to handle given inputs is facilitated slightly (i.e. there is no searching or sorting the inputs necessary).
+
+

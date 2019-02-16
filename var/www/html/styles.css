@@ -1,0 +1,42 @@
+body {
+	background-color: #f2e2e2;
+}
+
+a {
+	color: black;
+}
+a:link, a:visited {
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+	background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+form, p, h1, h3 {
+	border: 1px solid #dddddd;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #ffffff;
+}
+form {
+	text-align: center;
+}
+

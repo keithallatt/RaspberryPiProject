@@ -1,0 +1,20 @@
+Each python script requires some built in packages for them to work efficiently. Using a few scripts from the custom dependencies package, accepting input and basic tasks become more user friendly. 
+
+Sample.py
+-------------------
+
+from dependencies import task_dependencies
+from dependencies import run_task
+
+import sys
+
+name, script, inputs = run_task.parseXML(sys.argv[1])
+
+...
+
+print(output)
+
+-------------------
+
+In each file, by importing the Run Task script, we now have access to the inputs being parsed for the given task. Importing the Task Dependencies script holds less crucial, but more useful functions, for example: the function __get_time_run__() returns the time the code was run, giving a better idea of when the task was being completed. These functions are not necessary, but more useful to give more responsive output. In future, more functions will be added to the dependencies package. For use, these are the only packages that should be imported for access to processable input.
+
