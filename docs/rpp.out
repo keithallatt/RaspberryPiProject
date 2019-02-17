@@ -1,0 +1,18 @@
+\BOOKMARK [0][-]{chapter.1}{Project Description}{}% 1
+\BOOKMARK [1][-]{section.1.1}{About}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Motivation}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Hardware}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.3.1}{Raspberry Pis}{section.1.3}% 5
+\BOOKMARK [2][-]{subsection.1.3.2}{Memory / Storage}{section.1.3}% 6
+\BOOKMARK [1][-]{section.1.4}{Software}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.4.1}{File System}{section.1.4}% 8
+\BOOKMARK [2][-]{subsection.1.4.2}{Loaded Modules}{section.1.4}% 9
+\BOOKMARK [1][-]{section.1.5}{Networking}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.5.1}{Web Server}{section.1.5}% 11
+\BOOKMARK [2][-]{subsection.1.5.2}{SCP}{section.1.5}% 12
+\BOOKMARK [1][-]{section.1.6}{Next Steps}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.6.1}{Adding an LCD Screen}{section.1.6}% 14
+\BOOKMARK [2][-]{subsection.1.6.2}{Adding a power button}{section.1.6}% 15
+\BOOKMARK [2][-]{subsection.1.6.3}{Adding external storage}{section.1.6}% 16
+\BOOKMARK [0][-]{chapter.2}{Set Up}{}% 17
+\BOOKMARK [0][-]{chapter.3}{General Usage}{}% 18
